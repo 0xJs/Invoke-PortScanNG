@@ -16,4 +16,4 @@ Running `Invoke-PortScanNG` will:
 # Usage
 - Load PowerView
 - Load Invoke-PortScan
-- Run Invoke-PortScanNG
+- Run `Invoke-PortScanNG`
