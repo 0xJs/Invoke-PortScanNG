@@ -52,7 +52,7 @@ Invoke-PortScanNG
 		1433
 		3389
 		5985"
-		$Ports | Out-File -Encoding utf8 $PortFile
+		$Ports | Out-File -Encoding utf8 $PortsFile
 		
 		$ScanFile = "$Directory\scandata_all.csv"
 		Invoke-Portscan -HostFile $HostsFile -PortFile $PortsFile -SkipDiscovery -ErrorAction silentlycontinue | Export-Csv -Path $ScanFile
